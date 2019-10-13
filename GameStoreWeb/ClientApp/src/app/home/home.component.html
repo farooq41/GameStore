@@ -1,0 +1,18 @@
+<h1>Hello, world!</h1>
+
+
+<div *ngFor="let game of games; index as i; trackBy: trackByFn">
+  <div class="card mb-4 box-shadow">
+    <div class="card-header">
+      <h4 class="my-0 font-weight-normal float-left">{{game.name}}</h4>
+      <a (click)="onEdit(game.id)">Edit</a>
+      <i class="fas fa-edit float-right" aria-hidden="true"></i>
+      Design
+
+    </div>
+    <div class="card-body">
+      {{game.description}}
+      <ngb-rating [(rate)]="game.rating" max="5" [readonly]="true" style="width:100%"></ngb-rating>
+    </div>
+  </div>
+</div>

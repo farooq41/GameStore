@@ -1,0 +1,8 @@
+C:\Users\mohammed.farooq\source\repos\GameStore\GameStoreModel\bin\Debug\netcoreapp3.0\GameStoreModel.deps.json
+C:\Users\mohammed.farooq\source\repos\GameStore\GameStoreModel\bin\Debug\netcoreapp3.0\GameStoreModel.dll
+C:\Users\mohammed.farooq\source\repos\GameStore\GameStoreModel\bin\Debug\netcoreapp3.0\GameStoreModel.pdb
+C:\Users\mohammed.farooq\source\repos\GameStore\GameStoreModel\obj\Debug\netcoreapp3.0\GameStoreModel.csprojAssemblyReference.cache
+C:\Users\mohammed.farooq\source\repos\GameStore\GameStoreModel\obj\Debug\netcoreapp3.0\GameStoreModel.AssemblyInfoInputs.cache
+C:\Users\mohammed.farooq\source\repos\GameStore\GameStoreModel\obj\Debug\netcoreapp3.0\GameStoreModel.AssemblyInfo.cs
+C:\Users\mohammed.farooq\source\repos\GameStore\GameStoreModel\obj\Debug\netcoreapp3.0\GameStoreModel.dll
+C:\Users\mohammed.farooq\source\repos\GameStore\GameStoreModel\obj\Debug\netcoreapp3.0\GameStoreModel.pdb
