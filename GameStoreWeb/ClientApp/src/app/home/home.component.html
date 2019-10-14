@@ -5,7 +5,7 @@
         <h1 style="font-weight: 500;" class="float-left text-secondary">Games</h1>
       </div>
       <div class="col-sm-6 float-right">
-        <i class="fas fa-sort-amount-up fa-1x float-right font-weight-bold text-secondary" style="cursor: pointer;" [ngClass]="popularity?'fa-sort-amount-up':'fa-sort-amount-up-alt'" (click)="togglePopularity()">     Popularity</i>
+        <i class="fas fa-sort-amount-up fa-1x float-right font-weight-bold text-secondary" title="Sort By Popularity" style="cursor: pointer;" [ngClass]="popularity?'fa-sort-amount-up':'fa-sort-amount-up-alt'" (click)="togglePopularity()">     Popularity</i>
         </div>
       </div>
     </div>
@@ -14,7 +14,7 @@
   <div class="card mb-4 box-shadow">
     <div class="card-header bg-secondary">
       <h4 class="my-0 font-weight-bold float-left text-warning">{{game.name}}</h4>
-      <i class="fas fa-edit float-right text-warning" (click)="onEdit(game.id)" style="cursor: pointer" aria-hidden="true"></i>
+      <i class="fas fa-edit float-right text-warning" (click)="onEdit(game.id)" style="cursor: pointer" title="Edit Game" aria-hidden="true"></i>
 
     </div>
     <div class="card-body">

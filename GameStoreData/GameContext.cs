@@ -9,10 +9,9 @@ namespace GameStoreData
         public GameContext(DbContextOptions<GameContext> optionsBuilder)
         :base(optionsBuilder)
         {
-            
         }
 
-        public DbSet<Game> Games { get; set; }
+        public virtual DbSet<Game> Games { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

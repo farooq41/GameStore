@@ -1,0 +1,305 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\mohammed.farooq\\source\\repos\\GameStore\\GameStoreTests\\GameStoreTests.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\mohammed.farooq\\source\\repos\\GameStore\\GameStoreData\\GameStoreData.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\mohammed.farooq\\source\\repos\\GameStore\\GameStoreData\\GameStoreData.csproj",
+        "projectName": "GameStoreData",
+        "projectPath": "C:\\Users\\mohammed.farooq\\source\\repos\\GameStore\\GameStoreData\\GameStoreData.csproj",
+        "packagesPath": "C:\\Users\\mohammed.farooq\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mohammed.farooq\\source\\repos\\GameStore\\GameStoreData\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\mohammed.farooq\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "C:\\Users\\mohammed.farooq\\source\\repos\\GameStore\\GameStoreModel\\GameStoreModel.csproj": {
+                "projectPath": "C:\\Users\\mohammed.farooq\\source\\repos\\GameStore\\GameStoreModel\\GameStoreModel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\mohammed.farooq\\source\\repos\\GameStore\\GameStoreModel\\GameStoreModel.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\mohammed.farooq\\source\\repos\\GameStore\\GameStoreModel\\GameStoreModel.csproj",
+        "projectName": "GameStoreModel",
+        "projectPath": "C:\\Users\\mohammed.farooq\\source\\repos\\GameStore\\GameStoreModel\\GameStoreModel.csproj",
+        "packagesPath": "C:\\Users\\mohammed.farooq\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mohammed.farooq\\source\\repos\\GameStore\\GameStoreModel\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\mohammed.farooq\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\mohammed.farooq\\source\\repos\\GameStore\\GameStoreTests\\GameStoreTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\mohammed.farooq\\source\\repos\\GameStore\\GameStoreTests\\GameStoreTests.csproj",
+        "projectName": "GameStoreTests",
+        "projectPath": "C:\\Users\\mohammed.farooq\\source\\repos\\GameStore\\GameStoreTests\\GameStoreTests.csproj",
+        "packagesPath": "C:\\Users\\mohammed.farooq\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mohammed.farooq\\source\\repos\\GameStore\\GameStoreTests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\mohammed.farooq\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "C:\\Users\\mohammed.farooq\\source\\repos\\GameStore\\GameStoreData\\GameStoreData.csproj": {
+                "projectPath": "C:\\Users\\mohammed.farooq\\source\\repos\\GameStore\\GameStoreData\\GameStoreData.csproj"
+              },
+              "C:\\Users\\mohammed.farooq\\source\\repos\\GameStore\\GameStoreModel\\GameStoreModel.csproj": {
+                "projectPath": "C:\\Users\\mohammed.farooq\\source\\repos\\GameStore\\GameStoreModel\\GameStoreModel.csproj"
+              },
+              "C:\\Users\\mohammed.farooq\\source\\repos\\GameStore\\GameStoreWeb\\GameStoreWeb.csproj": {
+                "projectPath": "C:\\Users\\mohammed.farooq\\source\\repos\\GameStore\\GameStoreWeb\\GameStoreWeb.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.2.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.13.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.13.0, )"
+            },
+            "nunit": {
+              "target": "Package",
+              "version": "[3.12.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\mohammed.farooq\\source\\repos\\GameStore\\GameStoreWeb\\GameStoreWeb.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\mohammed.farooq\\source\\repos\\GameStore\\GameStoreWeb\\GameStoreWeb.csproj",
+        "projectName": "GameStoreWeb",
+        "projectPath": "C:\\Users\\mohammed.farooq\\source\\repos\\GameStore\\GameStoreWeb\\GameStoreWeb.csproj",
+        "packagesPath": "C:\\Users\\mohammed.farooq\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mohammed.farooq\\source\\repos\\GameStore\\GameStoreWeb\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\mohammed.farooq\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "C:\\Users\\mohammed.farooq\\source\\repos\\GameStore\\GameStoreData\\GameStoreData.csproj": {
+                "projectPath": "C:\\Users\\mohammed.farooq\\source\\repos\\GameStore\\GameStoreData\\GameStoreData.csproj"
+              },
+              "C:\\Users\\mohammed.farooq\\source\\repos\\GameStore\\GameStoreModel\\GameStoreModel.csproj": {
+                "projectPath": "C:\\Users\\mohammed.farooq\\source\\repos\\GameStore\\GameStoreModel\\GameStoreModel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "Microsoft.AspNetCore.SpaServices.Extensions": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.Extensions.Logging.Debug": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

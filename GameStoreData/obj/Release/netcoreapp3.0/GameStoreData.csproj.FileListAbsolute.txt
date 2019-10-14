@@ -1,0 +1,13 @@
+C:\Users\mohammed.farooq\source\repos\GameStore\GameStoreData\bin\Release\netcoreapp3.0\GameStoreData.deps.json
+C:\Users\mohammed.farooq\source\repos\GameStore\GameStoreData\bin\Release\netcoreapp3.0\GameStoreData.runtimeconfig.json
+C:\Users\mohammed.farooq\source\repos\GameStore\GameStoreData\bin\Release\netcoreapp3.0\GameStoreData.runtimeconfig.dev.json
+C:\Users\mohammed.farooq\source\repos\GameStore\GameStoreData\bin\Release\netcoreapp3.0\GameStoreData.dll
+C:\Users\mohammed.farooq\source\repos\GameStore\GameStoreData\bin\Release\netcoreapp3.0\GameStoreData.pdb
+C:\Users\mohammed.farooq\source\repos\GameStore\GameStoreData\bin\Release\netcoreapp3.0\GameStoreModel.dll
+C:\Users\mohammed.farooq\source\repos\GameStore\GameStoreData\bin\Release\netcoreapp3.0\GameStoreModel.pdb
+C:\Users\mohammed.farooq\source\repos\GameStore\GameStoreData\obj\Release\netcoreapp3.0\GameStoreData.csprojAssemblyReference.cache
+C:\Users\mohammed.farooq\source\repos\GameStore\GameStoreData\obj\Release\netcoreapp3.0\GameStoreData.AssemblyInfoInputs.cache
+C:\Users\mohammed.farooq\source\repos\GameStore\GameStoreData\obj\Release\netcoreapp3.0\GameStoreData.AssemblyInfo.cs
+C:\Users\mohammed.farooq\source\repos\GameStore\GameStoreData\obj\Release\netcoreapp3.0\GameStoreData.csproj.CopyComplete
+C:\Users\mohammed.farooq\source\repos\GameStore\GameStoreData\obj\Release\netcoreapp3.0\GameStoreData.dll
+C:\Users\mohammed.farooq\source\repos\GameStore\GameStoreData\obj\Release\netcoreapp3.0\GameStoreData.pdb
