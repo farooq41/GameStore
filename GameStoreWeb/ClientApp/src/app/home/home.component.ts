@@ -8,9 +8,9 @@ import { Router } from '@angular/router';
 })
 export class HomeComponent {
     public games: Game[];
-
-    constructor(http: HttpClient, @Inject('BASE_URL') baseUrl: string, private router:Router) {
-        http.get<Game[]>(baseUrl + 'game').subscribe(result => {
+    public popularity: boolean = true;
+    constructor(private http: HttpClient, @Inject('BASE_URL') private baseUrl: string, private router:Router) {
+        http.get<Game[]>(baseUrl + 'game?mostPopular=true').subscribe(result => {
             this.games = result;
             console.log(this.games);
         }, error => console.error(error));
@@ -18,6 +18,15 @@ export class HomeComponent {
 
     onEdit(id: number) {
         this.router.navigate(['/gameedit/'+id]);
+    }
+
+    togglePopularity() {
+        this.popularity = !this.popularity;
+        this.http.get<Game[]>(this.baseUrl + 'game?mostPopular='+this.popularity).subscribe(result => {
+          this.games = result;
+          console.log(this.games);
+        }, error => console.error(error));
+
     }
 }
 

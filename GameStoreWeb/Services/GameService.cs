@@ -14,7 +14,11 @@ namespace GameStoreWeb.Services
         }
         public IEnumerable<Game> GetAllGames(bool mostPopular)
         {
-            return _context.Games;
+            if (mostPopular)
+            {
+                return _context.Games.OrderByDescending(game => game.Rating);
+            }
+            return _context.Games.OrderBy(game => game.Rating); ;
         }
 
         public Game GetGameInfo(int id)

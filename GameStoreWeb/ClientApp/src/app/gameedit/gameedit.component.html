@@ -1,1 +1,40 @@
-<p>gameedit works!</p>
+<form (ngSubmit)="onUpdateGame()" #g="ngForm">
+
+  <h3>Edit Game: {{game.name}}</h3>
+
+  <div class="row">
+
+    <div class="col-sm-6 form-group">
+
+      <label for="description">Description</label>
+
+      <textarea id="description" rows="6" name="description" class="form-control" [(ngModel)]="game.description" required></textarea>
+
+    </div>
+
+  </div>
+
+  <div class="row">
+
+    <div class="col-sm-6 form-group">
+
+      <label for="rating">Rating</label>
+
+      <ngb-rating [(rate)]="game.rating" max="5" [readonly]="false" id="rating" class="form-control" name="rating" style="width: 100%"></ngb-rating>
+
+    </div>
+
+  </div>
+
+  <div class="row">
+
+    <div class="col-sm-6">
+
+      <button class="btn btn-success col-sm-2" type="submit" [disabled]="!g.valid">Save</button>
+      <button class="btn btn-primary col-sm-2" style="margin-left: 10px;" type="button" (click)="goBack()">Cancel</button>
+
+    </div>
+
+  </div>
+
+</form>

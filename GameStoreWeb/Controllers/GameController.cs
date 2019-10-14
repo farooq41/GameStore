@@ -20,9 +20,9 @@ namespace GameStoreWeb.Controllers
         }
         // GET: api/Game
         [HttpGet]
-        public IEnumerable<Game> Get(bool mostPopular)
+        public IEnumerable<Game> Get(bool mostPopular = true)
         {
-            return _gameService.GetAllGames(false);
+            return _gameService.GetAllGames(mostPopular);
         }
 
         // GET: api/Game/5
@@ -38,8 +38,7 @@ namespace GameStoreWeb.Controllers
         //{
         //}
 
-        // PUT: api/Game/5
-        [HttpPut("{id}")]
+        [HttpPut]
         public int Put([FromBody] Game value)
         {
             return _gameService.UpdateGameDetails(value);
